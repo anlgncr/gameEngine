@@ -1,0 +1,51 @@
+#######################################
+# Syntax Coloring Map For Between
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Between		KEYWORD1
+Tween		KEYWORD1
+variable	KEYWORD1
+init_value	KEYWORD1
+end_value	KEYWORD1
+total_time	KEYWORD1
+repeat		KEYWORD1
+reverse		KEYWORD1
+anim		KEYWORD1
+isFinished	KEYWORD1
+init_time	KEYWORD1
+onFinish	KEYWORD1
+onUpdate	KEYWORD1
+onRepeat	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getIndex	KEYWORD2
+update		KEYWORD2
+add		KEYWORD2
+remove		KEYWORD2
+create		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+LINEAR			LITERAL1
+EASE_IN			LITERAL1
+EASE_OUT		LITERAL1
+EASE_IN_BOUNCE		LITERAL1
+EASE_OUT_BOUNCE		LITERAL1
+EASE_IN_BACK		LITERAL1
+EASE_OUT_BACK		LITERAL1
+EASE_IN_ELASTIC		LITERAL1
+EASE_OUT_ELASTIC	LITERAL1
+EASE_IN_OUT		LITERAL1
+EASE_OUT_IN		LITERAL1
+EASE_OUT_IN_ELASTIC	LITERAL1
+EASE_IN_OUT_ELASTIC	LITERAL1

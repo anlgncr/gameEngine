@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For Tween
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DS3231		KEYWORD1
+dateTime	KEYWORD1
+seconds		KEYWORD1
+minutes		KEYWORD1
+hours		KEYWORD1
+day		KEYWORD1
+date		KEYWORD1
+month		KEYWORD1
+year		KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getTime		KEYWORD2
+getDate		KEYWORD2
+setTime		KEYWORD2
+setDate		KEYWORD2
