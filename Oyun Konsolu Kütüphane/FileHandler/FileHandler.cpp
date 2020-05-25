@@ -14,6 +14,8 @@
 	•Her söktörün başında onu diğer sektörlere bağlamak için
 	 bağlı bulunduğu sektörün adresi ve son sektörde LAST_SECTOR ibaresi bulunur. 
 	•Dosya isimleri 10 karakteri geçmemeli, buna dosya adı ile uzantıyı ayıran nokta da dahil.
+	
+	Yazar : Anıl Gençer
 */
 
 FileHandler::FileHandler(){
