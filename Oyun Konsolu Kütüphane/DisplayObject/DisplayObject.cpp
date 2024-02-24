@@ -304,6 +304,10 @@ void DisplayObject::dispatchEvent(uint8_t event){
 	dispatchEvent(&e);
 }
 
+/*
+ *	Olay en üst seviyedeki displayobject'e kadar çıkar.
+ *	Ardından alta doğru sırasıyla olaylar güncellenir.
+*/
 void DisplayObject::dispatchEvent(EventArgs* e){
 	DisplayObject *parent = getParent();
 	if(parent){
