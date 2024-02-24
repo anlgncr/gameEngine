@@ -308,9 +308,6 @@ void DisplayObject::dispatchEvent(EventArgs* e){
 	DisplayObject *parent = getParent();
 	if(parent != NULL){
 		parent->dispatchEvent(e); //Bubbling ..oooOOO
-	}
-	
-	if(parent){
 		parent->updateEvent(e); //Catching \☻/
 	}
 }
