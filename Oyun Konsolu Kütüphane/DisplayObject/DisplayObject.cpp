@@ -306,10 +306,10 @@ void DisplayObject::dispatchEvent(uint8_t event){
 
 void DisplayObject::dispatchEvent(EventArgs* e){
 	DisplayObject *parent = getParent();
-	if(parent != NULL){
+	if(parent){
 		parent->dispatchEvent(e); //Bubbling ..oooOOO
-		parent->updateEvent(e); //Catching \☻/
 	}
+	updateEvent(e); //Catching \☻/
 }
 
 void DisplayObject::updateEvent(EventArgs* e){
